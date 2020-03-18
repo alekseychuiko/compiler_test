@@ -31,6 +31,8 @@ target_compile_definitions(compiler_test
 target_link_libraries(compiler_test
   PRIVATE Qt5::Core Qt5::Quick)
 
+install(TARGETS compiler_test DESTINATION ${CMAKE_INSTALL_BINDIR})
+
 # QtCreator supports the following variables for Android, which are identical to qmake Android variables.
 # Check http://doc.qt.io/qt-5/deployment-android.html for more information.
 # These variables must use CACHE, otherwise QtCreator won't see them.
