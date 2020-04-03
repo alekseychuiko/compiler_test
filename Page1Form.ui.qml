@@ -11,4 +11,13 @@ Page {
         text: qsTr("You are on Page 1.")
         anchors.centerIn: parent
     }
+
+    Label {
+        x: -9
+        y: -8
+        text: qsTr("Version 1")
+        anchors.verticalCenterOffset: 26
+        anchors.horizontalCenterOffset: 0
+        anchors.centerIn: parent
+    }
 }
