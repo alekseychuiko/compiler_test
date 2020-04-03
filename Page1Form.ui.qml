@@ -15,7 +15,7 @@ Page {
     Label {
         x: -9
         y: -8
-        text: qsTr("Version 1")
+        text: qsTr("Version 2")
         anchors.verticalCenterOffset: 26
         anchors.horizontalCenterOffset: 0
         anchors.centerIn: parent
